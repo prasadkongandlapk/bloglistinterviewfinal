@@ -1,0 +1,11 @@
+.user-img-bg {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+}
+.user-img {
+  height: 100px;
+  width: 100px;
+}
