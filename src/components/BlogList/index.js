@@ -4,12 +4,12 @@ import BlogItem from '../BlogItem'
 
 class BlogList extends Component {
   render() {
-    const {blogList} = this.props
+    const {blogsList} = this.props
 
     return (
       <ul>
-        {blogList.map(each => (
-          <BlogItem blogDetails={each} />
+        {blogsList.map(each => (
+          <BlogItem key={each.id} blogDetails={each} />
         ))}
       </ul>
     )

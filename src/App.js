@@ -5,7 +5,6 @@ import About from './components/About'
 import Home from './components/Home'
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
-import UserInfo from './components/UserInfo'
 
 import './App.css'
 

@@ -1,1 +1,14 @@
-/* Write your CSS code here */
+.item-bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+.titime {
+  font-weight: bold;
+  color: black;
+}
+.l {
+  list-style: none;
+  color: #616e7c;
+}
